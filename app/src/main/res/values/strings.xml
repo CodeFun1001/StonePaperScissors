@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rock Paper Scissor</string>
+    <string name="stone_paper_scissors">Stone Paper Scissors</string>
+    <string name="settings">Settings</string>
+    <string name="play_with_friend">PLAY WITH FRIEND</string>
+    <string name="play_with_computer">PLAY WITH COMPUTER</string>
+    <string name="how_to_play">How to Play ?</string>
+    <string name="stone_paper_scissor_shoot">Stone Paper Scissor - Shoot!</string>
+</resources>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF4E9"
+    android:backgroundTint="#FFF4E9"
+    tools:context=".InputPlayers">
+
+
+    <ImageButton
+        android:id="@+id/deer"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/deer"
+        android:backgroundTint="@null"
+        android:contentDescription="Deer"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <ImageButton
+        android:id="@+id/fox"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/fox"
+        android:backgroundTint="@null"
+        android:contentDescription="Fox"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageButton
+        android:id="@+id/rabbit"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/rabbit"
+        android:backgroundTint="@null"
+        android:contentDescription="Rabbit"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <ImageButton
+        android:id="@+id/panda"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/panda"
+        android:backgroundTint="@null"
+        android:contentDescription="Panda"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
+
+    <ImageButton
+        android:id="@+id/elephant"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/elephant"
+        android:backgroundTint="@null"
+        android:contentDescription="Elephant"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
+
+    <ImageButton
+        android:id="@+id/monkey"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/monkey"
+        android:backgroundTint="@null"
+        android:contentDescription="Monkey"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.962"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="267dp"
+        android:layout_height="61dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EnterName"
+        app:layout_constraintVertical_bias="0.097" />
+
+    <TextView
+        android:id="@+id/EnterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_2_extrabold"
+        android:text="Player 1"
+        android:backgroundTint="#FFE680"
+        android:background="#FFE680"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#4D2C2C"
+        android:textColorLink="#FFE680"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077" />
+
+    <TextView
+        android:id="@+id/select_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="monospace"
+        android:text="Select Avatar"
+        android:textAlignment="center"
+        android:textColor="#4D2C2C"
+        android:textColorLink="#FFE680"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="124dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#FFE680"
+        android:fontFamily="@font/fredoka_bold"
+        android:text="PLAY!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#4D2C2C"
+        android:textColorLink="#FFE680"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.937" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
