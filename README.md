@@ -76,31 +76,21 @@ StonePaperScissors is a local two-player game where you can:
 - Android Studio (Latest stable)  
 - Android device or emulator (API 21+)
 
+###📌 Future Plans
+- Add Single Player mode vs AI 🤖
+
+- Add sound effects and animations 🎵
+
+- Share your win screen to social media 🔗
+
+###💬 Let's Connect
+- Feel free to star ⭐ the repo if you liked the project.
+- Made with ❤ by @CodeFun1001
+
+
 ### Installation
 
 ```bash
 git clone https://github.com/CodeFun1001/StonePaperScissors.git
 cd StonePaperScissors
 # Open in Android Studio, sync Gradle, run on emulator/device
-
----
-
-## 📌 Future Plans
-
-- Add Single Player mode vs AI 🤖  
-- Add sound effects and animations 🎵  
-- Share your win screen to social media 🔗  
-
----
-
-## 🤝 Contributions
-
-Pull Requests? Ideas? Bugs?  
-Open an issue or fork the project — collaboration is 💯 welcome!
-
----
-
-## 💬 Let's Connect
-
-Feel free to star ⭐ the repo if you liked the project.  
-Made with ❤ by [@CodeFun1001](https://github.com/CodeFun1001)
